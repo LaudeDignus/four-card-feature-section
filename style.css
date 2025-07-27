@@ -70,14 +70,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     gap:2rem;
     margin-top:2.5em;
 }
 
 .card{
     background-color: var(--white);
-    box-shadow: 5px 5px 10px var(--shadow);
+    box-shadow: 0 0 15px var(--shadow);
     width:23rem;
     padding: 1rem 2rem;
     border-top: 3px solid transparent;
@@ -134,6 +134,7 @@ footer{
     justify-content: center;
     padding: 2em;
     flex-shrink: 0;
+    text-align: center;
 }
 
 small{
@@ -174,7 +175,7 @@ a:hover{
 }
 
 
-@media (max-width:31.5rem){
+@media (max-width:35rem){
     h1{
         font-size: 1.7rem;
     }
@@ -189,7 +190,7 @@ a:hover{
         align-items: center;
     }
     .card {
-        width: 100%;
+        width: 90%;
         max-width: 23rem;
     }
 }
