@@ -136,6 +136,25 @@ footer{
     flex-shrink: 0;
 }
 
+small{
+    font-size: .9rem;
+    line-height: 1.5;
+    color: var(--grey-400);
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--grey-500);
+    transition: color .3s ease;
+    
+}
+
+a:hover{
+    color: var(--blue);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -148,14 +167,14 @@ footer{
   border: 0;
 }
 
-@media (max-width: 1168px) or (min-width: 1567px) {
+@media (max-width: 73rem) or (min-width: 98rem) {
     .down {
         transform: none;
     }
 }
 
 
-@media (max-width:501px){
+@media (max-width:31.5rem){
     h1{
         font-size: 1.7rem;
     }
