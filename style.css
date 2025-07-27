@@ -27,6 +27,7 @@ body{
     align-items:center;
     justify-content:center;
     min-height:100vh;
+    min-width: 16rem;
     font-family: var(--ffamily-poppins);
 }
 
@@ -176,10 +177,7 @@ a:hover{
 
 
 @media (max-width:35rem){
-    h1{
-        font-size: 1.7rem;
-    }
-    h2{
+    h1,h2{
         font-size: 1.7rem;
     }
     .description-header{
@@ -192,5 +190,21 @@ a:hover{
     .card {
         width: 90%;
         max-width: 23rem;
+    }
+}
+
+@media (max-width: 23rem){
+    h1,h2{
+        font-size:1.1rem
+    }
+    .description-header{
+        font-size: .9rem;
+    }
+    body{
+        align-items: normal;
+    }
+
+    main{
+        width: max-content;
     }
 }
